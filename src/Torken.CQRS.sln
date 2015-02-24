@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Torken.CQRS.Interfaces", "Torken.CQRS.Interfaces\Torken.CQRS.Interfaces.csproj", "{4B96D38A-3DEA-4926-8077-16C1BD7E28D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Torken.CQRS.Core", "Torken.CQRS.Core\Torken.CQRS.Core.csproj", "{DF3E691D-11D5-46DB-A076-D30D8D3277C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1475A186-05C4-482D-BD7E-8E1FD70E423C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Torken.CQRS.Core.Tests", "Torken.CQRS.Core.Tests\Torken.CQRS.Core.Tests.csproj", "{CB712A55-EE22-40C3-86BE-D213B9F2AC46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B96D38A-3DEA-4926-8077-16C1BD7E28D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B96D38A-3DEA-4926-8077-16C1BD7E28D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B96D38A-3DEA-4926-8077-16C1BD7E28D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B96D38A-3DEA-4926-8077-16C1BD7E28D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF3E691D-11D5-46DB-A076-D30D8D3277C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3E691D-11D5-46DB-A076-D30D8D3277C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3E691D-11D5-46DB-A076-D30D8D3277C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3E691D-11D5-46DB-A076-D30D8D3277C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB712A55-EE22-40C3-86BE-D213B9F2AC46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB712A55-EE22-40C3-86BE-D213B9F2AC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB712A55-EE22-40C3-86BE-D213B9F2AC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB712A55-EE22-40C3-86BE-D213B9F2AC46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
