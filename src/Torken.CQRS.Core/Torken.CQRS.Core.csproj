@@ -39,6 +39,9 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\CommonAssemblyInfo.cs">
+      <Link>CommonAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="AbstractCommandDispatcher.cs" />
     <Compile Include="CommandDispatcher.cs" />
     <Compile Include="CommandResult.cs" />
