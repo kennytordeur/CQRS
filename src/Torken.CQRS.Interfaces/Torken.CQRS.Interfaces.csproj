@@ -45,6 +45,10 @@
     <Compile Include="ICommandHandler.cs" />
     <Compile Include="ICommandResult.cs" />
     <Compile Include="ICommandValidator.cs" />
+    <Compile Include="IQuery.cs" />
+    <Compile Include="IQueryDispatcher.cs" />
+    <Compile Include="IQueryHandler.cs" />
+    <Compile Include="IQueryResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

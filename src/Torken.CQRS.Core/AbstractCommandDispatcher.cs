@@ -1,8 +1,8 @@
-﻿using Torken.CQRS.Core.Exceptions;
-using Torken.CQRS.Interfaces;
-
-namespace Torken.CQRS.Core
+﻿namespace Torken.CQRS.Core
 {
+    using Torken.CQRS.Core.Exceptions;
+    using Torken.CQRS.Interfaces;
+
     public abstract class AbstractCommandDispatcher : ICommandDispatcher
     {
         protected abstract ICommandHandler<T> ResolveCommandHandler<T>() where T : ICommand;

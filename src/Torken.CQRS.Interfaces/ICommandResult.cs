@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-
-namespace Torken.CQRS.Interfaces
+﻿namespace Torken.CQRS.Interfaces
 {
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+
     public interface ICommandResult
     {
         bool IsSuccess { get; }

@@ -1,10 +1,10 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using Torken.CQRS.Interfaces;
-
-namespace Torken.CQRS.Core
+﻿namespace Torken.CQRS.Core
 {
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+    using System.Linq;
+    using Torken.CQRS.Interfaces;
+
     public class CommandResult : ICommandResult
     {
         private readonly List<ValidationResult> _validationMessages = new List<ValidationResult>();

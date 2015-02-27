@@ -1,8 +1,8 @@
-﻿using System;
-using Torken.CQRS.Interfaces;
-
-namespace Torken.CQRS.Core
+﻿namespace Torken.CQRS.Core
 {
+    using System;
+    using Torken.CQRS.Interfaces;
+
     public class CommandDispatcher : AbstractCommandDispatcher
     {
         private readonly IServiceProvider _serviceProvider;

@@ -3,7 +3,7 @@
     using System;
 
     [Serializable]
-    public class CommandHandlerNotFound : Exception
+    public class QueryHandlerNotFound : Exception
     {
     }
 }

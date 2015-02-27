@@ -43,10 +43,13 @@
       <Link>CommonAssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="AbstractCommandDispatcher.cs" />
+    <Compile Include="AbstractQueryDispatcher.cs" />
     <Compile Include="CommandDispatcher.cs" />
     <Compile Include="CommandResult.cs" />
     <Compile Include="Exceptions\CommandHandlerNotFound.cs" />
+    <Compile Include="Exceptions\QueryHandlerNotFound.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryDispatcher.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Torken.CQRS.Interfaces\Torken.CQRS.Interfaces.csproj">
