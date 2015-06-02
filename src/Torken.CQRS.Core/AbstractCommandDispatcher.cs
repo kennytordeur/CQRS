@@ -17,14 +17,17 @@
             if (null != commandValidator)
                 commandResult.AddCommandResult(commandValidator.Validate(command));
 
-            var handler = ResolveCommandHandler<T>();
-
-            if (null == handler)
+            if (commandResult.IsSuccess)
             {
-                throw new CommandHandlerNotFound();
-            }
+                var handler = ResolveCommandHandler<T>();
 
-            commandResult.AddCommandResult(handler.Execute(command));
+                if (null == handler)
+                {
+                    throw new CommandHandlerNotFound();
+                }
+
+                commandResult.AddCommandResult(handler.Execute(command));
+            }
 
             return commandResult;
         }
